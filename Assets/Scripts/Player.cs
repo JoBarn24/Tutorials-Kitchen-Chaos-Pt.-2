@@ -1,20 +1,48 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.XR;
+using System;
 
 public class Player : MonoBehaviour
 {
+    public static Player Instance { get; private set; }
+    
+    public event EventHandler<OnSelectedCounterChangeEventArgs> OnSelectedCounterChange;
+    public class OnSelectedCounterChangeEventArgs : EventArgs
+    {
+        public ClearCounter selectedCounter;
+    }
+    
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private GameInput gameInput;
     [SerializeField] private LayerMask countersLayerMask;
     
     private bool isWalking = false;
     private Vector3 lastInteractDir;
+    private ClearCounter selectedCounter;
 
     private void Awake()
     {
-        gameInput.GetComponent<GameInput>();
+        if (Instance != null)
+        {
+            Debug.LogError($"There is more than one instance of Player.");
+        }
+        Instance = this;
     }
+
+    private void Start()
+    {
+        gameInput.OnInteractAction += GameInput_OnInteractAction;
+    }
+
+    private void GameInput_OnInteractAction(object sender, System.EventArgs e)
+    {
+        if (selectedCounter != null)
+        {
+            selectedCounter.Interact();   
+        }
+    }
+    
     private void Update()
     {
         HandleMovement();
@@ -82,8 +110,25 @@ public class Player : MonoBehaviour
         {
             if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
             {
-                clearCounter.Interact();
+                if (clearCounter != selectedCounter)
+                {
+                    SetSelectedCounter(clearCounter);
+                }
+            }
+            else
+            {
+                SetSelectedCounter(null);
             }
         }
+        else
+        {
+            SetSelectedCounter(null);
+        }
+    }
+
+    private void SetSelectedCounter(ClearCounter selectedCounter)
+    {
+        this.selectedCounter = selectedCounter;
+        OnSelectedCounterChange?.Invoke(this, new OnSelectedCounterChangeEventArgs() { selectedCounter = selectedCounter });
     }
 }
