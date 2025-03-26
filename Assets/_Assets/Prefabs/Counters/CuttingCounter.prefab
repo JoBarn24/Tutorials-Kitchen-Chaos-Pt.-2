@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 8405315129044947488}
   - component: {fileID: 5731258674480946240}
   - component: {fileID: 1391766072328843031}
+  - component: {fileID: 2525960590692162313}
   m_Layer: 5
   m_Name: ProgressBarUI
   m_TagString: Untagged
@@ -284,6 +285,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cuttingCounter: {fileID: 878446293624461875}
   barImage: {fileID: 953343477452962530}
+--- !u!114 &2525960590692162313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081103503755145549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c31a9d953b18ba4483869433d19db1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 2
 --- !u!1001 &252959711680895219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -470,8 +484,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4589716710238282922, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5882359853299914971}
   m_SourcePrefab: {fileID: 100100000, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
+--- !u!1 &3333196478019829216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4589716710238282922, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
+  m_PrefabInstance: {fileID: 1292558994721282378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5882359853299914971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333196478019829216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145c554830327a14e8b461a9ec067f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cuttingCounter: {fileID: 878446293624461875}
 --- !u!4 &3333196478019829217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4589716710238282923, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
@@ -491,11 +526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4359651936566578871, guid: 491508fa1ad3d7f4e9ee839cf9bbbd70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.121
+      value: 0.119
       objectReference: {fileID: 0}
     - target: {fileID: 4359651936566578871, guid: 491508fa1ad3d7f4e9ee839cf9bbbd70, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.212
+      value: 0.053
       objectReference: {fileID: 0}
     - target: {fileID: 7959101265705837863, guid: 491508fa1ad3d7f4e9ee839cf9bbbd70, type: 3}
       propertyPath: m_LocalPosition.x
