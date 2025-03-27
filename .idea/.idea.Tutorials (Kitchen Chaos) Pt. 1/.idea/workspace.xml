@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fccbdca2-c39d-46a7-89c0-a2b06d5bb30b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Prefabs/Counters/CuttingCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Prefabs/Counters/CuttingCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Prefabs/Counters/StoveCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Prefabs/Counters/StoveCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Prefabs/FairyLight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Prefabs/FairyLight.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/CuttingCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/StoveCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/StoveCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/ProgressBarUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/ProgressBarUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/ClearCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/ClearCounter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +102,7 @@
       <workItem from="1742346186122" duration="10634000" />
       <workItem from="1742404533255" duration="17157000" />
       <workItem from="1742443173540" duration="769000" />
-      <workItem from="1743009856442" duration="20883000" />
+      <workItem from="1743009856442" duration="24188000" />
     </task>
     <servers />
   </component>
