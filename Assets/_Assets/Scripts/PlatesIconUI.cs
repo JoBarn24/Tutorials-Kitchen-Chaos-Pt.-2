@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
-public class PlateIconUI : MonoBehaviour
+public class PlatesIconUI : MonoBehaviour
 {
     [SerializeField] private PlateKitchenObject plateKitchenObject;
     [SerializeField] private Transform iconTemplate;
@@ -24,7 +24,7 @@ public class PlateIconUI : MonoBehaviour
 
     private void UpdateVisual()
     {
-        foreach (Transform child in iconTemplate)
+        foreach (Transform child in transform)
         {
             if (child == iconTemplate) continue;
             Destroy(child.gameObject);
