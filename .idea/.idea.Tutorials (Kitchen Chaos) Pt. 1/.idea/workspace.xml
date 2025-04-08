@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fccbdca2-c39d-46a7-89c0-a2b06d5bb30b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Saturn V/Scenes/Starting Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Saturn V/Scenes/Starting Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,8 @@
       <workItem from="1742404533255" duration="17157000" />
       <workItem from="1742443173540" duration="769000" />
       <workItem from="1743009856442" duration="29651000" />
-      <workItem from="1743045332791" duration="2451000" />
+      <workItem from="1743045332791" duration="2947000" />
+      <workItem from="1744141038339" duration="1884000" />
     </task>
     <servers />
   </component>
