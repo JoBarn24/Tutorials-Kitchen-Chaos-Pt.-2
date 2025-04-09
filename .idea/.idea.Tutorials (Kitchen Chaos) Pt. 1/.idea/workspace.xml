@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="fccbdca2-c39d-46a7-89c0-a2b06d5bb30b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DeliveryArrow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DeliveryArrow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/DeliveryCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/DeliveryCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/DeliveryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/DeliveryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/DeliveryManagerUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/DeliveryManagerUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/PlatesIconUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/PlatesIconUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/ProgressBarUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/ProgressBarUI.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +28,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/StoveCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Assets/Scripts/LookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Assets/Scripts/PlateCompleteVisual.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Assets/Scripts/ProgressBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Assets/Scripts/ScriptableObjects/BurningRecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Assets/Scripts/ScriptableObjects/RecipeListSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,19 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Part-3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Part-3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
@@ -108,7 +115,7 @@
       <workItem from="1743009856442" duration="29651000" />
       <workItem from="1743045332791" duration="2947000" />
       <workItem from="1744141038339" duration="2483000" />
-      <workItem from="1744222911523" duration="4308000" />
+      <workItem from="1744222911523" duration="6885000" />
     </task>
     <servers />
   </component>
