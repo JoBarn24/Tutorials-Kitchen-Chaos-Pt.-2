@@ -5,11 +5,24 @@ using System.Security.Cryptography;
 
 public class CuttingCounter : BaseCounter, IHasProgress
 {
-    public event EventHandler<IHasProgress.OnProgressChangedEventArgs> OnProgressChanged;
+    public static event EventHandler OnAnyCut;
     
+    private CameraShake cameraShake;
+
+    void Start()
+    {
+        cameraShake = Camera.main.GetComponent<CameraShake>();
+    }
+
+    new public static void ResetStaticData()
+    {
+        OnAnyCut = null;
+    }
+    public event EventHandler<IHasProgress.OnProgressChangedEventArgs> OnProgressChanged;
     public event EventHandler OnCut;
     
     [SerializeField] private CuttingRecipeSO[] cuttingRecipeSOArray;
+    
     private int cuttingProgress;
     public override void Interact(Player player)
     {
@@ -55,15 +68,17 @@ public class CuttingCounter : BaseCounter, IHasProgress
         {
             cuttingProgress++;
             OnCut?.Invoke(this, EventArgs.Empty);
+            OnAnyCut?.Invoke(this, EventArgs.Empty);
             CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeSOWithInput(GetKitchenObject().GetKitchenObjectSO());
             
             OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs { progressNormalized = (float)cuttingProgress/cuttingRecipeSO.cuttingProgessMax});
 
             if (cuttingProgress >= cuttingRecipeSO.cuttingProgessMax)
             {
+                cameraShake.ShakeCamera();
                 KitchenObjectSO outputKitchenObjectSO = GetOutputForInput(GetKitchenObject().GetKitchenObjectSO());
                 GetKitchenObject().DestroySelf();
-                KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);   
+                KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);
             }
         }
     }
