@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fccbdca2-c39d-46a7-89c0-a2b06d5bb30b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorials (Kitchen Chaos) Pt. 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/BaseCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/CuttingCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/TrashCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/Counters/TrashCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/GameInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/GameInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/KitchenGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/KitchenGameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/UI/GamePauseUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Scripts/UI/GamePauseUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <workItem from="1743009856442" duration="29651000" />
       <workItem from="1743045332791" duration="2947000" />
       <workItem from="1744141038339" duration="2483000" />
-      <workItem from="1744222911523" duration="18277000" />
+      <workItem from="1744222911523" duration="24920000" />
     </task>
     <servers />
   </component>
