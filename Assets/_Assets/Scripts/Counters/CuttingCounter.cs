@@ -6,6 +6,13 @@ using System.Security.Cryptography;
 public class CuttingCounter : BaseCounter, IHasProgress
 {
     public static event EventHandler OnAnyCut;
+    
+    private CameraShake cameraShake;
+
+    void Start()
+    {
+        cameraShake = Camera.main.GetComponent<CameraShake>();
+    }
 
     new public static void ResetStaticData()
     {
@@ -68,9 +75,10 @@ public class CuttingCounter : BaseCounter, IHasProgress
 
             if (cuttingProgress >= cuttingRecipeSO.cuttingProgessMax)
             {
+                cameraShake.ShakeCamera();
                 KitchenObjectSO outputKitchenObjectSO = GetOutputForInput(GetKitchenObject().GetKitchenObjectSO());
                 GetKitchenObject().DestroySelf();
-                KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);   
+                KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);
             }
         }
     }
