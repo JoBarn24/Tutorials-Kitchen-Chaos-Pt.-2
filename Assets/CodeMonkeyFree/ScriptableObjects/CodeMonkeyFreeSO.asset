@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: kitchenchaos
+<<<<<<< Updated upstream
   lastShownTimestamp: 1744140464
   lastUpdateResponse:
     version: 1.01
@@ -38,25 +39,61 @@ MonoBehaviour:
     answerD: 
     answerE: 
   lastQotdTimestamp: 1744140464
+=======
+  lastShownTimestamp: 1744767996
+  lastUpdateResponse:
+    version: 1.01
+    versionUrl: https://unitycodemonkey.com
+  checkedLastUpdateTimestamp: 1744767997
+  lastQOTDResponse:
+    questionId: 171
+    questionText: 'Is this valid code?
+
+      <p>string state = (health &gt; 0) ?
+      "ALIVE" : "DEAD";</p>'
+    answerA: Yes
+    answerB: No
+    answerC: 
+    answerD: 
+    answerE: 
+  lastQotdTimestamp: 1744767997
+>>>>>>> Stashed changes
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleEnvironmentsApr25.png
-    topText: Gorgeous Realistic and Stylized Environments at 99% OFF!
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleApr25GUI.png
+    topText: Awesome Giant UI pack! Definitely get it to get a giant library of UI
+      elements 97% OFF!
     topLink: humblebundle
     bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
     bottomLink: dotscourse
+<<<<<<< Updated upstream
   lastDynamicHeaderTimestamp: 1744140464
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
   websiteLatestMessageTimestamp: 1744140464
+=======
+  lastDynamicHeaderTimestamp: 1744767997
+  websiteLatestMessage:
+    text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
+      Click here!</a>
+  websiteLatestMessageTimestamp: 1744767997
+>>>>>>> Stashed changes
   websiteLatestVideos:
     videos:
+    - youTubeId: TZtbhCoff9Y
+      title: I found a MAGICAL GitHub project! (FREE Desktop in Unity!)
+    - youTubeId: aYKnB1OWuYA
+      title: TONS of AWESOME Assets up to 99% OFF! (Multiple Bundles and Spring Sales)
     - youTubeId: zgJHRiounHs
       title: The Problem of Making more MONEY with Assets than Games
     - youTubeId: wejUWjCVW94
       title: The 10 BEST Game Dev Beginner Projects to Make!
+<<<<<<< Updated upstream
     - youTubeId: 79an2JDe51g
       title: NO MORE PROGRAMMING, let's do Pen Spinning instead!
     - youTubeId: BR1HFAj2v-Y
       title: This GAME made $28 MILLION! Why?
   websiteLatestVideosTimestamp: 1744140464
+=======
+  websiteLatestVideosTimestamp: 1744767997
+>>>>>>> Stashed changes
